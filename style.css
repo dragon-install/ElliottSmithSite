@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 750px) {
+	.second-section-container {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 5%;
+		background-color: #e9e9e9;
+	}
+}
+
+.shopping-page {
+	height: 100vh;
+	/* hide shopping page */
+	display: none;
+}
+
+.shopping-page li {
+	list-style-type: none;
+}
+
+.shopping-page a {
+	text-decoration: none;
+}
+
+.shopping-page i {
+	color: black;
+}
+
+.shopping-page .navbar {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.shopping-page-contents {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5vh;
+	line-height: 3rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.shopping-page-subcontent {
+	display: flex;
+	justify-content: center;
+	line-height: 2rem;
+}
+
+.shopping-page-subcontent ul:first-child {
+	text-align: center;
+}
+
+.social-media-icons {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+
+.hero-image {
+	height: 100vh;
+	background: url(./images/ES_Chinese_Theatre_Crop_1512x.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.navbar-container {
+	display: flex;
+	position: sticky;
+	justify-content: space-evenly;
+	top: 0;
+}
+
+.fa-solid {
+	font-size: 1.5rem;
+	color: white;
+	margin-top: 1.5rem;
+}
+
+.fa-solid:hover {
+	cursor: pointer;
+}
+
+.logo {
+	margin-top: 1rem;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+/* Second Section */
+
+.second-section-container {
+	/* height: 1%; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.album-image {
+	width:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.second-section-text {
+	width: 50vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5% 5% 5% 5%;
+	background-color: #e9e9e9;
+}
+
+.second-section-text h1 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+.order-now {
+	padding: 2% 5% 2% 5%;
+	background-color: #e9e9e9;
+	color: 	#FF4500;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.order-now:hover {
+	cursor: pointer;
+}
+
+.third-section-container {
+	background: url(./images/ElliottSpecialOrders.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+}
+
+.header-third-section {
+	font-size: 2.5rem;
+	color: white;
+}
+
+.third-section-contents {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10% 0 10%;
+}
+
+.subscript-third-section {
+	color: white;
+	font-size: 2rem;
+	line-height: 3rem;
+	text-align: center;
+}
+
+.fourth-section-container {
+	display: flex;
+}
+
+.fourth-section-image {
+	background: url(./images/elliottSmithHateYou.jpg) no-repeat center center fixed;
+	/* background-size: cover; */
+	height: 100vh;
+	width: 100%
+}
