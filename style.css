@@ -20,6 +20,11 @@
 
 .shopping-page li {
 	list-style-type: none;
+	transition: transform 250ms;
+}
+
+.shopping-page li:hover {
+	transform: translateY(-5px)
 }
 
 .shopping-page a {
@@ -60,6 +65,20 @@
 	width: 100vw;
 	justify-content: center;
 	font-size: 1.5rem;
+}
+
+.social-media-icons:hover {
+	cursor: pointer;
+}
+
+.fa-brands {
+	padding-right: 1rem;
+	transition: background-color 0.5s ease;
+}
+
+.fa-brands:hover {
+	/* obviously not working properly */
+	background-color: #FF4500;
 }
 
 .hero-image {
